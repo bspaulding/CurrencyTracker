@@ -2,7 +2,7 @@ Feature: Manage countries
   In order to manage his travel itinerary
   Mr. Smart
   wants to manage the countries he has visited.
-  
+
   Scenario: List Countries
     Given the following countries exist:
       |name|code|visited|

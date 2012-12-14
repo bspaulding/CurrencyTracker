@@ -1,9 +1,9 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
-  name: NameOne
-  code: CodeOne
+  name: One
+  code: One
 
 two:
-  name: NameTwo
-  code: CodeTwo
+  name: Two
+  code: Two

@@ -5,6 +5,7 @@ class CountriesControllerTest < ActionController::TestCase
 
   setup do
     @country = countries(:one)
+    @controller = CountriesController.new
   end
 
   test "should get index" do
@@ -27,7 +28,7 @@ class CountriesControllerTest < ActionController::TestCase
     end
 
     assert !assigns[:country].errors[:code].empty?
-  end  
+  end
 
   test "should show country" do
     get :show, :id => @country.to_param

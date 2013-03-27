@@ -24,4 +24,10 @@ CurrencyTracker::Application.configure do
 
   # Don't use the real Web Service, use the seed data.
   USE_STATIC_DATA = true
+
+  # Do not compress assets
+  config.assets.compress = false
+
+  # Expands the lines which load the assets
+  config.assets.debug = true
 end

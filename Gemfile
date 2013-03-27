@@ -13,3 +13,9 @@ end
 group :test do
   gem 'cucumber-rails', :require => false
 end
+
+group :assets do
+  gem 'uglifier', '>= 1.0.3'
+end
+
+gem 'jquery-rails', '~> 2.2.0'

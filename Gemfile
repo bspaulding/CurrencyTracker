@@ -14,6 +14,11 @@ end
 
 group :test do
   gem 'cucumber-rails', :require => false
+  gem 'shoulda-matchers'
+end
+
+group :development, :test do
+  gem 'rspec-rails', '~> 2.0'
 end
 
 group :assets do

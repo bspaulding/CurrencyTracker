@@ -2,7 +2,7 @@ ruby '1.9.3'
 
 source 'http://rubygems.org'
 
-gem 'rails', '3.2'
+gem 'rails', '3.2.15'
 gem 'sqlite3'
 gem 'savon', '~>1.0'
 gem 'nokogiri'
